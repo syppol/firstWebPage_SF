@@ -46,7 +46,8 @@ body * {
     color: #E3B873;
 }
 
-.phone {
+.phone a {
+    text-decoration-line: underline;
     color: #E3B873;
 }
 
@@ -64,22 +65,45 @@ body * {
     color: white;
 }
 
+.header-nav.item a:hover, .header-nav.item a:focus {
+    text-decoration: none;
+    color: #E3B873;
+}
+
 .button {
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
     border-radius: 2px;
     outline: 0;
     border: 0;
-    padding: 13px 33px;
     color: white;
     text-transform: uppercase;
-    font-size: 11px;
-    font-family: "Nunito Sans Italic";
-    font-style: italic;
+    font-size: 13px;
+    font-family: "Nunito Sans Regular";
+    font-style: normal;
+    font-weight: 400;
     text-align: center;
+    line-height: 27px;
+    background: #E3B873;
+    padding: 13px 33px;
 }
 
-.button-yellow {
-    background: #E3B873;
+.button-edge {
+    font-family: "Nunito Sans Italic";
+    font-style: italic;
+    font-size: 11px;
+    padding: 20px auto;
+    line-height: 15px;
+    width: 207px;
+    height: 51px;
+    white-space: nowrap;
+}
+
+.button-header {
+    width: 161px;
+    height: 37px;
+}
+
+.buttons-block > .button {
     margin-right: 20px;
 }
 
@@ -136,4 +160,15 @@ body * {
 .buttons-block {
     display: flex;
     align-items: flex-start;
+}
+
+.subtitle {
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #181818;
 }

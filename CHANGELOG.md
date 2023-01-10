@@ -8,4 +8,6 @@
 - Subtitle class template added 
 - Phone class changed (href added)
 - New buttons type added
-- Section second in progress
+- Section second is in progress
+
+## [2.0.0] Second section is finished.

@@ -10,4 +10,9 @@
 - New buttons type added
 - Section second is in progress
 
-## [2.0.0] Second section is finished.
+## 10.01.2023 [2.0.0] Second section is finished.
+
+## 11.01.2023 [3.0.0] Third section is finished.
+
+- +Minor changes for second part
+- Formatting

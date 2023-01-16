@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
-    <title>Document</title>
+    <title>IC "Repair Design Project"</title>
+    <link rel="shortcut icon" href="../firstWebPage_SF/images/main_icon.svg">
 </head>
 
 <body>
@@ -18,11 +19,11 @@
             <nav>
                 <ul class="header-nav">
                     <li class="header-nav item"><a href="#">HOME</a></li>
-                    <li class="header-nav item"><a href="">PROJECTS</a></li>
-                    <li class="header-nav item"><a href="">MEASUREMENT</a></li>
-                    <li class="header-nav item"><a href="">TEAM</a></li>
-                    <li class="header-nav item"><a href="">REVIEWS</a></li>
-                    <li class="header-nav item"><a href="">CONTACTS</a></li>
+                    <li class="header-nav item"><a href="#projects">PROJECTS</a></li>
+                    <li class="header-nav item"><a href="#measurement">MEASUREMENT</a></li>
+                    <li class="header-nav item"><a href="#team">TEAM</a></li>
+                    <li class="header-nav item"><a href="#reviews">REVIEWS</a></li>
+                    <li class="header-nav item"><a href="#contacts">CONTACTS</a></li>
                 </ul>
             </nav>
             <div class="phone">
@@ -49,7 +50,7 @@
                 <div class="first-section-overlay"></div>
             </div>
         </section>
-        <section class="second-section">
+        <section class="second-section" id="projects">
             <div class="wrapper-second-section">
                 <div class="wrapper-second-section-right">
                     <nav>
@@ -60,15 +61,24 @@
                         </ul>
                     </nav>
                     <div class="apartamant-img">
-                        <img src="../firstWebPage_SF/images/ROSTOV-ON-DON, ADMIRAL.png" alt="Admiral apartament"
+                        <img src="../firstWebPage_SF/images/ROSTOV-ON-DON, ADMIRAL.png" alt="Admiral apartment"
                             width="679" height="482">
                     </div>
                 </div>
                 <div class="wrapper-second-section-left">
-                    <h2>Completed projects</h2>
+                    <h2 class="yellow-title">Completed projects</h2>
                     <p>Only a small part of the work performed by our company is presented on the site. For 14 years on
                         in the construction
                         market we have made happy more than 1000 families</p>
+                    <div class="slider-mobile">
+                        <img src="../firstWebPage_SF/images/small_admiral_arartment_rostov.jpg" alt="small admiral apartment Rostov">
+                        <div class="arrows-position-mobile">
+                            <div class="arrows-mobile">
+                                <a class="arrow-link" href="#projects"><img src="../firstWebPage_SF/images/left_arrow_mobile.svg" alt="left arrow mobile"></a>
+                                <a class="arrow-link" href="#projects"><img src="../firstWebPage_SF/images/right_arrow_mobile.svg" alt="right arrow mobile"></a>
+                            </div>
+                        </div>
+                    </div>
                     <div class="project-features">
                         <div class="parameter">
                             <h3>City:</h3>
@@ -119,6 +129,12 @@
                         </div>
                     </div>
                 </div>
+                <div class="mobile-video-img">
+                    <img src="../firstWebPage_SF/images/small_video_img.jpg" alt="small video image">
+                    <div class="play-button-mobile">
+                        <img src="../firstWebPage_SF/images/play_button_mobile.svg" alt="play button mobile version">
+                    </div>
+                </div>
                 <div class="video-img">
                     <div class="video">
                         <img src="../firstWebPage_SF/images/video.png" alt="video">
@@ -137,21 +153,23 @@
                         of work in your apartment. You can watch the live broadcast from one of our facilities!
                         Leave a request below and you will receive a link to the broadcast.</p>
                 </div>
-                <form action="#" class="customer-form-video">
-                    <div class="customer-name">
-                        <label for="customer-name" class="info-form">Name</label>
-                        <input type="text" placeholder="What is your name:" id="customer">
-                    </div>
-                    <div class="customer-phone">
-                        <label for="customer-phone" class="info-form">Phone</label>
-                        <input type="tel" placeholder="Your phone number:" id="customer">
-                    </div>
-                    <div class="button-input-submit">
-                        <button class="button-submit">
-                            Submit
-                        </button>
-                    </div>
-                </form>
+                <div>
+                    <form action="#" class="customer-form-video">
+                        <div class="customer-name">
+                            <label for="customer-name" class="info-form">Name</label>
+                            <input type="text" placeholder="What is your name:" id="customer">
+                        </div>
+                        <div class="customer-phone">
+                            <label for="customer-phone" class="info-form">Phone</label>
+                            <input type="tel" placeholder="Your phone number:" id="customer">
+                        </div>
+                        <div class="button-input-submit">
+                            <button class="button-submit mobile">
+                                Submit
+                            </button>
+                        </div>
+                    </form>
+                </div>
                 <div class="customer-confirm-checkbox">
                     <div class="checkbox-confirm">
                         <label class="label-confirm">
@@ -165,8 +183,315 @@
                 </div>
             </div>
         </section>
+        <section class="fourth-section">
+            <div class="wrapper-fourth-section">
+                <div class="subtitle-with-icon">
+                    <h3 class="subtitle" style="color: #181818;">types of repair</h3>
+                    <div>
+                        <img src="../firstWebPage_SF/images/tools_icon.svg">
+                    </div>
+                </div>
+                <div class="repair-types">
+                    <div class="type">
+                        <img src="images/type1_img.jpg" class="type-img" alt="basic design">
+                        <div class="type-info">
+                            <span class="list-name">Redecorating</span>
+                            <ul class="type-info-list">
+                                <li>Dismantling of old coatings</li>
+                                <li>Wallpapering</li>
+                                <li>Painting walls and ceilings</li>
+                                <li>Laying flooring</li>
+                                <li>Replacing plumbing</li>
+                                <li>Replacing sockets and switches</li>
+                                <li>Replacing doors</li>
+                            </ul>
+                        </div>
+                        <div class="type-cost">
+                            from 900 rub / m2
+                        </div>
+                    </div>
+                    <div class="type">
+                        <img src="images/type2_img.jpg" class="type-img" alt="design with furniture">
+                        <div class="type-info">
+                            <span class="list-name">Overhaul</span>
+                            <ul class="type-info-list">
+                                <li>Dismantling of old coatings</li>
+                                <li>Wallpapering</li>
+                                <li>Painting walls and ceilings</li>
+                                <li>Laying flooring</li>
+                                <li>Replacing plumbing</li>
+                                <li>Replacing sockets and switches</li>
+                                <li>Replacing doors</li>
+                            </ul>
+                        </div>
+                        <div class="type-cost">
+                            from 1800 rub / m2
+                        </div>
+                    </div>
+                    <div class="type">
+                        <img src="images/type3_img.jpg" class="type-img" alt="lux design">
+                        <div class="type-info">
+                            <span class="list-name">Designer Repair</span>
+                            <ul class="type-info-list">
+                                <li>Dismantling of old coatings</li>
+                                <li>Wallpapering</li>
+                                <li>Painting walls and ceilings</li>
+                                <li>Laying flooring</li>
+                                <li>Replacing plumbing</li>
+                                <li>Replacing sockets and switches</li>
+                                <li>Replacing doors</li>
+                            </ul>
+                        </div>
+                        <div class="type-cost">
+                            from 4000 rub / m2
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="fifth-section" id="measurement">
+            <div class="wrapper-fifth-section">
+                <img src="../firstWebPage_SF/images/building_img.png" class="building-img" alt="background building">
+                <div class="wrapper-measurement-info-form">
+                    <div class="measurement-info">
+                        <div class="measurement-item">
+                            <span class="number-in-circle">01</span>
+                            <p class="measurement-list-text">Our specialist will arrive for measurements per day
+                                contact, or appoint a date convenient for you</p>
+                        </div>
+                        <div class="measurement-item">
+                            <span class="number-in-circle">02</span>
+                            <p class="measurement-list-text">Free metering</p>
+                        </div>
+                        <div class="measurement-item">
+                            <span class="number-in-circle">03</span>
+                            <p class="measurement-list-text">Free consultation</p>
+                        </div>
+                        <div class="measurement-item">
+                            <span class="number-in-circle">04</span>
+                            <p class="measurement-list-text">Get a cost estimate and<br>the timing of your future
+                                repairs</p>
+                        </div>
+                    </div>
+                    <form class="measurement-form">
+                        <h3 class="measurement-form-title">Leave a request for free<br>departure of the measurer</h3>
+                        <div class="measurement-items">
+                            <div class="measurement-form-item">
+                                <label class="measurement-label" for="customer-name-measurement">Name</label>
+                                <input class="measurement-input" id="customer-name-measurement" type="text" name="name"
+                                    placeholder="What is your name:">
+                            </div>
+                            <div class="measurement-form-item">
+                                <label class="measurement-label" for="customer-number-measurement">Phone</label>
+                                <input class="measurement-input" id="customer-number-measurement" type="phone"
+                                    name="number" placeholder="Your phone number:">
+                            </div>
+                            <div class="measurement-form-item">
+                                <label class="measurement-label" for="customer-email-measurement">Email</label>
+                                <input class="measurement-input" id="customer-email-measurement" type="text"
+                                    name="email" placeholder="Your email:">
+                            </div>
+                        </div>
+                        <div class="checkbox-confirm second-checkbox">
+                            <label class="label-confirm">
+                                <div class="confirm-checkbox-group">
+                                    <input type="checkbox" class="checkbox">
+                                    <div class="custom-checkbox"></div>
+                                    <div class="confirm-text" style="color: #FFFFFF;">I agree to the processing of
+                                        personal data</div>
+                                </div>
+                            </label>
+                        </div>
+                        <button class="button-call-measurer" type="button" name="call-measurer">Call the
+                            measurer</button>
+                    </form>
+                </div>
+            </div>
+            <div class="piggybank-block">
+                <div class="piggybank">
+                    <div class="piggybank-icon">
+                        <img src="../firstWebPage_SF/images/pig_icon.svg" alt="piggybank">
+                    </div>
+                    <div class="piggybank-text">Help save 10 - 20% of the<br>cost of materials</div>
+                </div>
+            </div>
+        </section>
+        <section class="sixth-section">
+            <div class="wrapper-sixth-section" id="team">
+                <div class="fantasies-wrapper">
+                    <div class="your-fantasies">
+                        <h2 class="yellow-title title2">We realize your wildest fantasies</h2>
+                        <div class="mobile-slider-fantasies">
+                            <img src="../firstWebPage_SF/images/small_img_fantasie_apartament.jpg" alt="small fantasie apartment image">
+                            <div class="arrows-position-mobile-fantasies">
+                                <div class="arrows-mobile-fantasies">
+                                    <a class="arrow-link-fantasies" href="#team"><img src="../firstWebPage_SF/images/left_arrow_mobile.svg" alt="left arrow mobile"></a>
+                                    <a class="arrow-link-fantasies" href="#team"><img src="../firstWebPage_SF/images/right_arrow_mobile.svg" alt="right arrow mobile"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="fantasies-list">
+                            <li><a class="fantasie-link" href="#">American classic</a></li>
+                            <li><a class="fantasie-link" href="#">Empire</a></li>
+                            <li><a class="fantasie-link" href="#">Classical</a></li>
+                            <li><a class="fantasie-link" href="#">Loft</a></li>
+                            <li><a class="fantasie-link" href="#">Minimalism</a></li>
+                            <li><a class="fantasie-link" href="#">Provence</a></li>
+                            <li><a class="fantasie-link" href="#">Romanticism</a></li>
+                            <li><a class="fantasie-link" href="#">Scandinavian style</a></li>
+                            <li><a class="fantasie-link" href="#">Mediterranean style</a></li>
+                            <li><a class="fantasie-link" href="#">High tech</a></li>
+                            <li><a class="fantasie-link" href="#">Eclecticism</a></li>
+                        </ul>
+                    </div>
+                    <div class="fantasies-images">
+                        <div class="fantasies-img-block1">
+                            <img class="fantasie-img1" src="../firstWebPage_SF/images/fantasie_img1.jpg" alt="apartment with old watch">
+                            <img class="fantasie-img2" src="../firstWebPage_SF/images/fantasie_img2.jpg" alt="classic living room with modern TV">
+                        </div>
+                        <div class="fantasies-img-block2">
+                            <img class="fantasie-img3" src="../firstWebPage_SF/images/fantasie_img3.jpg" alt="dining room plus living room">
+                            <img class="fantasie-img4" src="../firstWebPage_SF/images/fantasie_img4.jpg" alt="apartment with modern sofa and coffee table">
+                        </div>
+                    </div>
+                </div>
+                <div class="sixth-section-overlay"></div>
+            </div>
+        </section>
+        <section class="seventh-section" id="reviews">
+            <div class="wrapper-seventh-section">
+                <div class="width-seventh-section">
+                    <div class="our-clients">
+                        <div class="subtitle-with-icon">
+                            <h3 class="subtitle" style="color: #181818;">our clients</h3>
+                            <div>
+                                <img src="../firstWebPage_SF/images/handshake_icon.svg">
+                            </div>
+                        </div>
+                        <div class="customer-paragraph">
+                            <p class="customer-p">80% of our customers recommend us to their
+                                friends and family.</p>
+                        </div>
+                        <div class="our-clients-list">
+                            <div class="client">
+                                <div class="client-name">
+                                    <img class="client-photo" src="../firstWebPage_SF/images/photo_client1.png" alt="Fedosova Maria Konstantinovna">
+                                    <h4 class="client-title">Fedosova Maria Konstantinovna</h4>
+                                </div>
+                                <p class="review">
+                                    I want to thank the guys for their work. We put your shower part in repair. I am very grateful that I referred to the repair as to my own. Great thanks I express the project 
+                                    to Georgia for its professionalism and approach.
+                                </p>
+                                <p class="review">    
+                                    The repair process was turned out in terms, faster than anticipated. Team mobile and professional. Works performed qualitatively without comments. Quality satisfied. Prices democratic. I recommend these masters.
+                                </p>
+                                <div class="client-order-info">
+                                    <div class="apartment-size"><img class="apart-size-icon" src="../firstWebPage_SF/images/square_meters_icon.svg" alt="square icon">40 m2</div>
+                                    <div class="days"><img class="calendar-icon" src="../firstWebPage_SF/images/calendar_icon.svg" alt="calendar icon">48 DAYS</div>
+                                </div>
+                            </div>
+                            <div class="client">
+                                <div class="client-name">
+                                    <img class="client-photo" src="../firstWebPage_SF/images/photo_client2.png" alt="Afanasyev Sergey Alexandrovich">
+                                    <h4 class="client-title">Afanasyev Sergey Alexandrovich</h4>
+                                </div>
+                                <p class="review">
+                                    I want to thank the guys for their work. We put your shower part in repair. I am very grateful that I referred to the repair as to my own. Great thanks I express the project 
+                                    to Georgia for its professionalism and approach.
+                                </p>
+                                <p class="review">    
+                                    The repair process was turned out in terms, faster than anticipated. Team mobile and professional. Works performed qualitatively without comments. Quality satisfied. Prices democratic. I recommend these masters.
+                                </p>
+                                <div class="client-order-info">
+                                    <div class="apartment-size"><img class="apart-size-icon" src="../firstWebPage_SF/images/square_meters_icon.svg" alt="square icon">90 m2</div>
+                                    <div class="days"><img class="calendar-icon" src="../firstWebPage_SF/images/calendar_icon.svg" alt="calendar icon">128 DAYS</div>
+                                </div>
+                            </div>
+                            <div class="client">
+                                <div class="client-name">
+                                    <img class="client-photo" src="../firstWebPage_SF/images/photo_client3.png" alt="Kiriev Egor Leonidovich">
+                                    <h4 class="client-title">Kiriev Egor Leonidovich</h4>
+                                </div>
+                                <p class="review">
+                                    I want to thank the guys for their work. We put your shower part in repair. I am very grateful that I referred to the repair as to my own. Great thanks I express the project 
+                                    to Georgia for its professionalism and approach.
+                                </p>
+                                <p class="review">    
+                                    The repair process was turned out in terms, faster than anticipated. Team mobile and professional. Works performed qualitatively without comments. Quality satisfied. Prices democratic. I recommend these masters.
+                                </p>
+                                <div class="client-order-info">
+                                    <div class="apartment-size"><img class="apart-size-icon" src="../firstWebPage_SF/images/square_meters_icon.svg" alt="square icon">56 m2</div>
+                                    <div class="days"><img class="calendar-icon" src="../firstWebPage_SF/images/calendar_icon.svg" alt="calendar icon">86 DAYS</div>
+                                </div>
+                            </div>
+                        </div>                
+                    </div>
+                </div>
+                <div class="background-img-buildings-group">
+                    <img src="../firstWebPage_SF/images/buildings_imgs_group.jpg" alt="big city background image">
+                </div>
+            </div>
+        </section>
+        <section class="eighth-section">
+            <div class="wrapper-eighth-section">
+                <div class="width-eighth-section">
+                    <form class="question-form">
+                        <h3 class="subtitle question">have any questions?</h3>
+                        <div class="question-form-items">
+                            <div class="question-form-item">
+                                <label class="question-label" for="customer-name-question">Name</label>
+                                <input class="question-input" id="customer-name-question" type="text" name="name"
+                                    placeholder="What is your name:">
+                            </div>
+                            <div class="question-form-item">
+                                <label class="question-label" for="customer-number-question">Phone</label>
+                                <input class="question-input" id="customer-number-question" type="phone"
+                                    name="number" placeholder="Your phone number:">
+                            </div>
+                            <div class="question-form-item">
+                                <label class="question-label" for="customer-question">Question</label>
+                                <input class="question-input" id="customer-question" type="text"
+                                    name="question" placeholder="I want to know:">
+                            </div>
+                        </div>
+                        <div class="checkbox-confirm third-checkbox">
+                            <label class="label-confirm">
+                                <div class="confirm-checkbox-group">
+                                    <input type="checkbox" class="checkbox">
+                                    <div class="custom-checkbox"></div>
+                                    <div class="confirm-text" style="color: #FFFFFF;">I agree to the processing of
+                                        personal data</div>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="button-input-submit">
+                            <button class="button-submit mobile-question">
+                                Submit
+                            </button>
+                        </div>
+                    </form>
+                    <div class="reverse-address">
+                        <div class="contacts-group">
+                            <p class="subtitle address" id="contacts">Rostov-on-Don, Nansen St., 239 Shopping Center
+                                Decorum Tel +7 (928) 768 32 29</p>
+                            <div class="contacts-icons">
+                                <a href="mailto:customer_service@rdp.com" class="first-contact-icon"><img class="first-contact-icon" src="../firstWebPage_SF/images/email_icon.svg" alt="email icon"></a>
+                                <a href="https://www.instagram.com/"><img src="../firstWebPage_SF/images/instagram_icon.svg" alt="instagram icon"></a>
+                            </div>
+                        </div>
+                        <div class="map">
+                            <img src="../firstWebPage_SF/images/map_image.jpg" alt="address on map">
+                        </div>
+                        <div class="mini-map">
+                            <img src="../firstWebPage_SF/images/mini_map.jpg" alt="address on mini map">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="eighth-section-overlay"></div>
+        </section>
     </main>
-    <!--     <footer class="header footer">
+    <footer class="header footer">
         <div class="header-content wrapper">
             <div class="logo">
                 IC "Repair Design Project"
@@ -174,11 +499,11 @@
             <nav>
                 <ul class="header-nav">
                     <li class="header-nav item"><a href="#">HOME</a></li>
-                    <li class="header-nav item"><a href="">PROJECTS</a></li>
-                    <li class="header-nav item"><a href="">MEASUREMENT</a></li>
-                    <li class="header-nav item"><a href="">TEAM</a></li>
-                    <li class="header-nav item"><a href="">REVIEWS</a></li>
-                    <li class="header-nav item"><a href="">CONTACTS</a></li>
+                    <li class="header-nav item"><a href="#projects">PROJECTS</a></li>
+                    <li class="header-nav item"><a href="#measurement">MEASUREMENT</a></li>
+                    <li class="header-nav item"><a href="#team">TEAM</a></li>
+                    <li class="header-nav item"><a href="#reviews">REVIEWS</a></li>
+                    <li class="header-nav item"><a href="#contacts">CONTACTS</a></li>
                 </ul>
             </nav>
             <div class="phone">
@@ -188,7 +513,7 @@
                 <button class="button button-edge button-header">Request a call</button>
             </div>
         </div>
-    </footer> -->
+    </footer>
 </body>
 
 </html>
